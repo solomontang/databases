@@ -7,18 +7,19 @@ CREATE TABLE messages (
   id INTEGER,
   username INTEGER,
   message TEXT,
-  lobby INTEGER
+  lobby INTEGER,
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE lobbies (
-  id INTEGER,
+  id INTEGER PRIMARY KEY,
   name TEXT
 );
 
-CREATE TABLE users (
-  id INTEGER,
-  name TEXT
-);
+-- CREATE TABLE users (
+--   id INTEGER,
+--   name TEXT
+-- );
 
 /* Create other tables and define schemas for them here! */
 
