@@ -4,6 +4,20 @@ USE chat;
 
 CREATE TABLE messages (
   /* Describe your table here.*/
+  id INTEGER,
+  username INTEGER,
+  message TEXT,
+  lobby INTEGER
+);
+
+CREATE TABLE lobbies (
+  id INTEGER,
+  name TEXT
+);
+
+CREATE TABLE users (
+  id INTEGER,
+  name TEXT
 );
 
 /* Create other tables and define schemas for them here! */
